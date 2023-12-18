@@ -1,6 +1,7 @@
 type HeaderProps = {
-  // Define expected props here
+  title: string;
 };
+
 export default function Header(props: HeaderProps) {
   return <header>Header</header>;
 }
